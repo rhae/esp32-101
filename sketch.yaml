@@ -1,0 +1,12 @@
+profiles:
+  azdelivery:
+    fqbn: esp32:esp32:esp32
+    notes: AZ-DElivery Dev Moduls C2, USB/VID 10c4/ea60
+    programmer: esptool
+    port: /dev/ttyUSB0
+    port_config:
+        baudrate: 115200
+    platforms:
+      - platform: esp32:esp32 (3.0.7)
+
+default_profile: azdelivery

@@ -1,9 +1,9 @@
 # esp32-101
-ESP32-WROOM-32 board with arduino-cli
+ESP32-WROOM-32 board with `arduino-cli`.
 
 ## Goal
-I had a ESP32 board lying around and the arduino-cli is new and I haven't used it.
-This project is my playground to setup an arduino-cli project on linux.
+I had a ESP32 board lying around and the `arduino-cli` is new and I haven't used it.
+This project is my playground to setup an `arduino-cli` project on linux.
 
 ## Board
 
@@ -49,7 +49,7 @@ cd ~
 
 Add the path to your `PATH` environment variable.
 To do this:
-- open the file `bash.rc`
+- open the file `~/.bash.rc`
 - scroll to the end of the file
 - add the following lines:
 
